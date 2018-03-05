@@ -38,7 +38,7 @@ body {
 
 /*Navigation bar*/
 
-ul {
+#unorderedList {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -46,20 +46,20 @@ ul {
     background-color: #333;
 }
 
-li {
+#list {
     float: left;
 }
 
-li a {
+#listLink {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1px 12px;
     text-decoration: none;
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+#listHover {
     background-color: #111;
 }
 
