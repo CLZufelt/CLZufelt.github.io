@@ -4,63 +4,39 @@
 }
 
 body {
+  background-color: lightblue;
 }
 
-.fullscreen-bg {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  overflow: hidden;
-  z-index: -100;
-} 
-
-.fullscreen-bg-video {
-  position: absolute;
-  top: 0; left: 0;
-  width: 100vw;
-  height: auto;
-  z-index: -1000;
-}
-
-#paragraph {
-  /*position: absolute;*/
-  text-align: center;
-  padding-top: 200px;
-  top: 100px;
-  /*left: 25%;*/
-  z-index: 999;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
+.particleFrame {
+  height: 80%;
+  width: 80%;
 }
 
 /*Navigation bar*/
 
 #unorderedList {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
 #list {
-    float: left;
+  float: left;
 }
 
 #listLink {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 1px 12px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1px 12px;
+  text-decoration: none;
 }
 
 /* Change the link color to #111 (black) on hover */
 #listHover {
-    background-color: #111;
+  background-color: #111;
 }
 
 .active {
