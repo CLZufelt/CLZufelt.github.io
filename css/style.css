@@ -7,9 +7,9 @@ body {
   background-color: lightblue;
 }
 
-.particleFrame {
-  height: 80%;
-  width: 80%;
+.particleFrame iframe{
+  height: 100vh;
+  width: 100%;
 }
 
 /*Navigation bar*/
