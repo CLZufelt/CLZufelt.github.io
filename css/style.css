@@ -4,38 +4,51 @@
 }
 
 body {
-  background-color: black;
+  background-color: white;
+  background-size: cover;
+
+  background-image: url('../media/MilkyWay.png');
+  overflow: hidden;
 }
 
 .particleFrame iframe{
+  z-index: -1;
   height: 100vh;
   width: 100%;
+  border: none;
 }
 
 /*Navigation bar*/
 
-#unorderedList {
+.navBar ul {
+  position: fixed;
+  display: inline-block;
+  top: 0;
+  width: 100%;
   list-style-type: none;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+  text-align: center;
   overflow: hidden;
+}
+
+.navBar ul li {
+  margin: 0 auto;
+  padding: 0;
+  display: inline-block;
   background-color: #333;
 }
 
-#list {
-  float: left;
-}
-
-#listLink {
-  display: block;
+.navBar ul li a {
+  display: inline-block;
   color: white;
   text-align: center;
-  padding: 1px 12px;
+  padding: 14px 16px;
   text-decoration: none;
 }
 
 /* Change the link color to #111 (black) on hover */
-#listHover {
+.navBar ul li a:hover {
   background-color: #111;
 }
 
@@ -43,3 +56,24 @@ body {
   background-color: #4CAF50;
 }
 
+h1 {
+  display: block;
+  position: relative;
+  top: 100px;
+  color: black;
+  text-align: center;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  color: black;
+  text-align: center;
+  position: relative;
+  top: 105px;
+}
+
+ul {
+  position: relative;
+}
